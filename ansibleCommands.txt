@@ -1,0 +1,3 @@
+vim /etc/ansible/hosts
+ansible all -m ping
+ansible -m shell -a 'df -h' datacenter_sao_paulo
