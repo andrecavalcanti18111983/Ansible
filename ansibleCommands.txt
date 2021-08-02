@@ -1,3 +1,13 @@
+### Ansible
 vim /etc/ansible/hosts
 ansible all -m ping
 ansible -m shell -a 'df -h' datacenter_sao_paulo
+
+###Vagrant
+vagrant up
+vagrant ssh 
+sudo su
+
+
+###centos
+ip a
